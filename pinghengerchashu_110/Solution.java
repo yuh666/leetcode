@@ -57,4 +57,5 @@ public class Solution {
         }
         return Math.abs(left - right) > 1 ? -1 : Math.max(left, right) + 1;
     }
+
 }
