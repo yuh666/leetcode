@@ -52,7 +52,7 @@ public class Solution {
         int[] arr = new int[n + 1];
         for (int i = 1; i <= n; i++) {
             int sqrt1 = (int) Math.sqrt(i);
-            if (sqrt * sqrt == i) {
+            if (sqrt1 * sqrt1 == i) {
                 arr[i] = 1;
             } else {
                 arr[i] = i;
